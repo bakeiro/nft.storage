@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://github.com/nftstorage/nft.storage/compare/gateway-v1.2.0...gateway-v1.2.1) (2022-02-18)
+
+
+### Bug Fixes
+
+* update ipfs car and client ([#1373](https://github.com/nftstorage/nft.storage/issues/1373)) ([2b61549](https://github.com/nftstorage/nft.storage/commit/2b61549f4f31684a6afca28c9f7ed39dc076ada2))
+
 ## [1.2.0](https://github.com/nftstorage/nft.storage/compare/gateway-v1.1.2...gateway-v1.2.0) (2022-02-15)
 
 
