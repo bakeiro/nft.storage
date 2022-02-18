@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.15.1](https://github.com/nftstorage/nft.storage/compare/api-v2.15.0...api-v2.15.1) (2022-02-18)
+
+
+### Bug Fixes
+
+* update ipfs car and client ([#1373](https://github.com/nftstorage/nft.storage/issues/1373)) ([2b61549](https://github.com/nftstorage/nft.storage/commit/2b61549f4f31684a6afca28c9f7ed39dc076ada2))
+
 ## [2.15.0](https://github.com/nftstorage/nft.storage/compare/api-v2.14.1...api-v2.15.0) (2022-02-08)
 
 
