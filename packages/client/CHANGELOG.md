@@ -1,5 +1,12 @@
 # Changelog
 
+### [6.0.1](https://github.com/nftstorage/nft.storage/compare/nft.storage-v6.0.0...nft.storage-v6.0.1) (2022-02-21)
+
+
+### Bug Fixes
+
+* update ipfs car and client ([#1373](https://github.com/nftstorage/nft.storage/issues/1373)) ([2b61549](https://github.com/nftstorage/nft.storage/commit/2b61549f4f31684a6afca28c9f7ed39dc076ada2))
+
 ## [6.0.0](https://github.com/nftstorage/nft.storage/compare/nft.storage-v5.2.1...nft.storage-v6.0.0) (2022-02-09)
 
 
