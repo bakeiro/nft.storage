@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.25.3](https://github.com/nftstorage/nft.storage/compare/website-v1.25.2...website-v1.25.3) (2022-02-21)
+
+
+### Bug Fixes
+
+* remove top level and only entry point via css ([#1399](https://github.com/nftstorage/nft.storage/issues/1399)) ([bf941d4](https://github.com/nftstorage/nft.storage/commit/bf941d4bfb001ba963f1d5439915412e25951cbc))
+
 ### [1.25.2](https://github.com/nftstorage/nft.storage/compare/website-v1.25.1...website-v1.25.2) (2022-02-17)
 
 
