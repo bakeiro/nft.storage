@@ -9,6 +9,7 @@ import clsx from 'clsx'
 import countly from '../lib/countly'
 import { getMagic } from '../lib/magic.js'
 import { useQueryClient } from 'react-query'
+import { useUser } from 'lib/user.js'
 
 /**
  * Navbar Component
@@ -22,6 +23,7 @@ import { useQueryClient } from 'react-query'
 export default function Navbar({ bgColor = 'bg-nsorange', logo, user }) {
   const containerRef = useRef(null)
   const queryClient = useQueryClient()
+  const { handleClearUser } = useUser()
   const [isMenuOpen, setMenuOpen] = useState(false)
   const { query } = useRouter()
   const version = /** @type {string} */ (query.version)
@@ -30,6 +32,7 @@ export default function Navbar({ bgColor = 'bg-nsorange', logo, user }) {
     await getMagic().user.logout()
     await localStorage.removeItem('nft-user')
     await queryClient.invalidateQueries('magic-user')
+    handleClearUser()
     Router.push({ pathname: '/', query: version ? { version } : null })
   }, [queryClient, version])
 
