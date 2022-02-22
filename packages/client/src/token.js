@@ -113,7 +113,7 @@ export class Token {
         wrapWithDirectory: true,
       })
 
-      const href = new URL(`ipfs://${cid}/${name}`)
+      const href = new URL(`https://ipfs.io/ipfs/${cid}/${name}`);
       const path = dotPath.split('.')
       setIn(data, path, href)
       setIn(dag, path, cid)
