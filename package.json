@@ -2,8 +2,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "@bakeiro/nft.storage.gateway",
-  "version": "v1.0.3",
+  "name": "@bakeiro/nft-storage-gateway",
+  "version": "v1.0.1",
   "scripts": {
     "test": "run-s test:*",
     "test:client": "yarn --cwd packages/client test",
