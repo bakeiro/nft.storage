@@ -3,7 +3,7 @@
     "packages/*"
   ],
   "name": "@bakeiro/nft.storage.gateway",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "scripts": {
     "test": "run-s test:*",
     "test:client": "yarn --cwd packages/client test",
